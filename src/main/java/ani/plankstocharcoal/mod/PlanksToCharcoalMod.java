@@ -11,6 +11,6 @@ public class PlanksToCharcoalMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		LOGGER.info("PlanksToCharcoal Mod Initialized!");
 	}
 }

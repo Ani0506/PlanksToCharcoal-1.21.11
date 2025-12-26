@@ -3,15 +3,15 @@
 	"id": "planks-to-charcoal-mod",
 	"version": "${version}",
 	"name": "Planks To Charcoal Mod",
-	"description": "This mod allows you to put planks in the oven and convert them to charcoal",
+	"description": "Allows planks to be smelted into charcoal",
 	"authors": [
 		"Ani"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/Ani0506/PlanksToCharcoal-1.21.11"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/planks-to-charcoal-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -25,9 +25,6 @@
 			"ani.plankstocharcoal.mod.PlanksToCharcoalClient"
 		]
 	},
-	"mixins": [
-		"planks-to-charcoal-mod.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~1.21.11",
